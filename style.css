@@ -11,8 +11,8 @@ ul {
     
 a {
   text-decoration: none;
+  padding-left: 40px;
 }
-
 img {
   width: 100%;
   height: auto;
@@ -38,8 +38,6 @@ img {
 
 /*=============== BASE =================*/
 html {
-  padding-left: 10px;
-  padding-right: 10px;
   scroll-behavior: smooth;
   overflow-x: hidden; /*para nao mover a tela no eixo x - sem scroll no x*/
 }
@@ -104,7 +102,7 @@ body {
 } 
 
 .section {
-  padding: calc(5rem + var(--header-height)) 0;
+  padding: 20px;
 }
 
 .section .title{
@@ -364,7 +362,10 @@ nav.show div.icon-close {
   border-radius: .25rem .25rem 0 0;
   text-align: center;
 }
-
+#services p, h2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 #services .card {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -483,6 +484,7 @@ p {
   font-size: 1.5rem;
   margin-right: 0.625rem;
   align-items: center;
+  padding-left: 25px;
 }
 
 #contact ul.grid {
@@ -520,6 +522,7 @@ footer .logo {
 footer .brand p {
   color: var(--text-color-light);
   margin-bottom: 0.75rem;
+  padding-left: 40px;
 }
 
 footer i {
@@ -528,7 +531,7 @@ footer i {
 }
 
 footer .social a {
-  margin-right: 2rem;
+  margin-right: 1px;
   transition: 0.3s;
   display: inline-block;
 }
