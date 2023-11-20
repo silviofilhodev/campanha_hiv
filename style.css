@@ -58,7 +58,7 @@ body {
 }
 
 .button {
-  background-color: var(--base-color);
+  background-color: red;
   color: var(--text-color-light);
   height: 3.5rem;
   flex-direction: row;
